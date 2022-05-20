@@ -46,7 +46,7 @@ RUN pip install Flask \
     && pip install flask-swagger-ui
 
 # Descargamos el code que queremos instalar en el docker de un repositorio de git en este caso es el personal
-RUN git clone https://github.com/searchmx79/Productos_De_Datos_Entregable4.git 
+RUN git clone https://github.com/rogeliorc/IEXETEC_Actividad4/Productos_De_Datos_Entregable4.git 
 
 WORKDIR /Productos_De_Datos_Entregable4
 
